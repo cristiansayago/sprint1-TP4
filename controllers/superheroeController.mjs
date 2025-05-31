@@ -21,7 +21,7 @@ export function obtenerSuperheroePornombreRealController(req, res) {
   if (superheroe) {
     res.send(renderizarListaSuperheroes(superheroe));
   } else {
-    res.status(404).send({ mensaje: "Superheroe no encontrado por Anto"});
+    res.status(404).send({ mensaje: "Superheroe no encontrado"});
   }
 }
 // ... (resto del código)
